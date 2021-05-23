@@ -1,4 +1,6 @@
 # Automatic Lights
+In-depth Information abou the project: on wiki.
+
 
 Installation : tell other users how to install your project locally.
 
