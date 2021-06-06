@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "950341872658",
+    "firebase_url": "https://automatic-lights1-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "automatic-lights1",
+    "storage_bucket": "automatic-lights1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950341872658:android:b8b8683306b2399badbccb",
+        "android_client_info": {
+          "package_name": "com.example.automaticlights"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950341872658-8mb6g290r005u46hdmr0edc8hmuqkjq5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1ATU6gj2gCKoITCXAIYL1qamjJYbmHjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950341872658-8mb6g290r005u46hdmr0edc8hmuqkjq5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
