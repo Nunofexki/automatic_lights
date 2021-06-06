@@ -33,12 +33,6 @@ void printStatus()
   // print the results to the Serial Monitor:
   Serial.print("\"Luminosity\": ");
   Serial.println(ldr);
-
-  //Serial.print("Status = ");
-  //Serial.println(lamp_status);
-  
-  //Serial.print("\"nPessoas\": ");
-  //Serial.println(room_count);
 }
 
 void setup() 
@@ -67,9 +61,6 @@ void loop()
     lamp_status = Serial.read() - '0';
     Serial.print("Arduino --> ");
     Serial.println(lamp_status);
-
-    Serial.print("\"Luminosity\": ");
-    Serial.println(ldr);
   }
 
   int val1=analogRead(senRead1);
@@ -133,8 +124,8 @@ void loop()
       entry=0;
       leave=0;
 
-      //Serial.print("\"nPessoas\": ");
-      //Serial.println(room_count); 
+      Serial.print("\"nPessoas\": ");
+      Serial.println(room_count); 
 
       delay(500);
     }
@@ -174,7 +165,7 @@ void loop()
     }
   }
 
-  //printStatus();
+  printStatus();
 
   delay(200);
 }
